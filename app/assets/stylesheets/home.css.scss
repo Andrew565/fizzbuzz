@@ -11,3 +11,10 @@ body {
 h1 {
 	color: darkred;
 }
+
+#response {
+	margin-top: 1em;
+	.error {
+		color: red;
+	}
+}
