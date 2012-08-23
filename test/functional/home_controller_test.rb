@@ -10,4 +10,10 @@ class HomeControllerTest < ActionController::TestCase
 		get :index
 		assert_response :success
 	end
+
+	test "should find input field for num" do
+		get :index
+		assert_select 'input', 1
+		assert_select '#num'
+	end
 end
