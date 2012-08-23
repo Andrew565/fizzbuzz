@@ -1,7 +1,6 @@
 require 'test_helper'
 
-class FunctionalTest < ActiveSupport::TestCase
-	# basic test to see if I'm doing this right.
+class HomeControllerTest < ActionController::TestCase
 	test "the truth" do
 		assert true
 	end
